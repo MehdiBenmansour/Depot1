@@ -35,6 +35,12 @@ public int sous(int a, int b) {
 		
 	}
 	
+	public void Hello() {
+         System.out.println(" Say Hello ::");
+		
+	}
+	
+	
 	@Test
 	public void testmin() {
 		assertEquals(6,min(20,6));
@@ -44,5 +50,8 @@ public int sous(int a, int b) {
 	public void testmax() {
 		assertEquals(30,max(2,30));
 	}
+	
+	
+	
 
 }
